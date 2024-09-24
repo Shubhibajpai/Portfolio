@@ -1,0 +1,219 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+/* navbar */
+.header{
+    background-color: beige;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    height: 60px;
+    top: 0px;
+    z-index: 1;
+    position: sticky;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+li{
+    margin: 20px 30px;
+}
+.name{
+    font-size: x-large;
+    margin-top:10px ;
+    font-weight: bold;
+}
+li a{
+ color: black;
+ text-decoration: none;
+ font-size: 16px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: darkblue;
+    font-size: large;
+}
+.btn4{
+    display: none;
+    margin-top: 10px;
+}
+.dis{
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    transition: 1s;
+}
+/* home section */
+.home-head{
+    color: rgb(2, 2, 99);
+    font-size: 60px;
+}
+.home-head span{
+    color: rgb(196, 65, 18);
+}
+.home-para{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.home-para span{
+    color: darkred;
+}
+.btn{
+    background-color: rgb(127, 127, 167);
+    border-radius: 22px;
+    color: white;
+    font-size: medium;
+    /* border: 2px solid blue; */
+    border: none;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 8px 4px rgb(183, 183, 206);
+}
+.btn a{
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(79, 79, 124);
+    
+}
+.home{
+    display: flex;
+    background-color: rgb(219, 210, 210);
+    align-items: center;
+    justify-content: space-around;
+    /* height: 650px; */
+    
+}
+.home-img{
+ display: flex;
+ width: 33vw;
+ padding: 18px 2px;
+}
+.im{
+    width: 70%;
+    
+    /* margin-top: 80px; */
+    /* margin-left: 170px; */
+    border-radius: 225px;
+    border: 3px solid black;
+    background-color: black;
+    /* background: black; */
+}
+/* .hidden{
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(1px);
+    transform: translateY(-50%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateY(0%);
+} */
+
+@media screen and (max-width:863px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        background-color: whitesmoke;
+    }
+    ul{
+        flex-direction: column;
+    }
+    .btn4{
+        display: block;
+        width: 50px;
+        height: 40px;
+        /* margin-left: 30px; */
+        border: 2px solid whitesmoke;
+        position: relative;
+        top: -7px;
+    }
+    .btn4 i{
+        width: 10px;
+        height: 15px;
+        color: rgb(1, 1, 37);
+       
+    }
+    .dis{
+        height: 23.3rem;
+        width: 250px;
+        flex-direction: column;
+        background-color: rgb(1, 1, 37);
+        /* color: white; */
+    }
+    li a{
+        color: white;
+    }
+    nav ul li a:hover{
+        cursor: pointer;
+        color: orangered;
+        font-size: larger;
+    }
+
+    .desrep{
+        height: 0;
+        display: flex;
+        /* color: white; */
+    }
+    .name{
+        display: flex;
+        justify-content: space-around;
+    }
+    /* .name h1{
+        /* margin-right: 113px; 
+    
+    } */
+   
+    /* .home-head{
+        font-size: 48px;
+        margin-top: 17px;
+    } */
+    /* .im{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 150px;
+        padding-bottom: 5px;
+    } */
+
+}
+
+/* Home section media-query */
+@media screen and (max-width:1059px){
+    .home{
+        flex-direction: column;
+        
+    }
+    .content{
+        margin-top: 22px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+}
+@media  screen and (max-width:500px) {
+    .home-head{
+        font-size: 44px;
+    }
+    .home-para{
+        font-size: 20px;
+    }
+}
