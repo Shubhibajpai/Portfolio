@@ -1,0 +1,77 @@
+/* Skills section is here */
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 28px; */
+    /* background-color: rgb(87,28,143); */
+    background-color: rgb(116, 4, 116);
+    /* padding-top: 30px; */
+    /* height: 700px */
+    
+}
+
+
+.skill-section h2 span{
+    color: rgb(202, 135, 10);
+}
+.skills-head{
+    color: white;
+    font-size: 40px;
+    margin: 8px 2px;
+}
+.skills h4{
+    color: white;
+    font-size: large;
+}
+/* .skill-logo{
+    width: 34px;
+    height: 34px;
+    margin: -5px 12px;
+    border-radius: 17px;
+} */
+.skills-container{
+    /* height: 50vw; */
+    width: 38vw;
+    /* background-color: rgb(56,11,99); */
+    background-color: rgb(41, 1, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+.skills{
+    /* background-color: red; */
+    margin: 12px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills img{
+    height: 85px;
+    width: 95px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgb(139, 137, 137);
+}
+.skills h4{
+    margin: 0px 2px;
+    margin-top: 12px;
+}
+@media screen and (max-width:863px){
+    .skills-container{
+        width: 80vw;
+    }
+    .skills-head{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:410px){
+   
+    .skills-head{
+        font-size: 33px;
+    }
+}
