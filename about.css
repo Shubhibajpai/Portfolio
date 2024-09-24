@@ -1,0 +1,100 @@
+.about{
+    background-image: url(Pictures/alexander-grey-62vi3TG5EDg-unsplash.jpg);
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: animate 10s linear infinite alternate;
+    background-size: 120% 120%;
+    /* color: white; */
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.about-head{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.about-head span{
+    color: rgb(61, 10, 61);
+}
+/* .about-img{
+    /* margin-right: 95px; 
+} */
+.img1{
+ width: 35vw;
+ /* height: 400px; */
+ /* margin-top: 50px; */
+ border-radius: 20px;
+ /* margin-left: 180px; */
+ box-shadow: 2px 2px 6px 3px gray;
+ filter: brightness(90%);
+}
+.about-content{
+    width: 34vw;
+    /* margin-top: 20px; */
+    /* margin-left: 60px; */
+}
+.head1{
+    font-size: xx-large;
+    margin-top: 30px;
+}
+.about-para{
+    font-size: larger;
+    margin-top: 7px;
+    font-weight: bold;
+}
+.int{
+    font-size: larger;
+    font-weight: 1000px;
+    /* text-align: justify; */
+}
+.main{
+    font-size: larger;
+    cursor: pointer;
+    font-size: 14px;
+}
+.main span{
+    color:  darkblue;
+    display: flex;
+    font-size: 18px;
+}
+.btn1{
+    background-color: rgb(10, 10, 196);
+    color: white;
+    font-size: large;
+    height: 30px;
+    width: 100px;
+    border: blue;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn1 i{
+    margin-top: 5px;
+}
+@media screen and (max-width:950px){
+    .container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        /* margin-left: 110px; */
+        width: 80vw;
+    }
+    .about-content{
+        width: 85vw;
+        font-size: 16px;
+    }
+}

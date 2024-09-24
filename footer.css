@@ -1,0 +1,66 @@
+.footer{
+    background-color: rgb(2, 2, 78);
+    color: white;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    font-size: larger;
+    /* border: 2px solid whitesmoke; */
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    font-size: larger;
+    /* border: 2px solid whitesmoke; */
+    
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    font-size: larger;
+    /* border: 2px solid whitesmoke; */
+}
+.box2 a{
+    color: white;
+}
+.box2 a:hover{
+    color: orangered;
+    font-size: larger;
+}
+.box3 i{
+    color: rgb(253, 253, 8);
+}
+.share a{
+    color: white;
+}
+.last{
+    background-color: rgb(2, 2, 78);
+    text-align: center;
+    font-size: xx-large;
+}
+.last i{
+    color: red;
+    size: 1px;
+}
+.credit{
+    color: white;
+}
+.last a{
+    color: rgb(250, 180, 2);
+}
+@media screen and (max-width:863px){
+    .boxes{
+        flex-direction: column;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 15px ;
+    }
+}
