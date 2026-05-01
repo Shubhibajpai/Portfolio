@@ -4,7 +4,7 @@ import Home from './Pages/Home/home';
 import Navbar from './Pages/Navbar';
 import About from './Pages/About/about';
 import Skills from './Pages/Skills/skills';
-import Projects from './Pages/Projects/projects';
+import Projects from './Pages/Projects/Projects';
 import ParticlesBg from './Component/ParticlesBg/ParticlesBg';
 function App() {
 
