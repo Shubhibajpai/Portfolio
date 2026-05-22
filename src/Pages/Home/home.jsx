@@ -41,7 +41,7 @@ const Home = () => {
               <h1 className="text-lg font-bold text-gray-900 sm:text-xl md:text- dark:text-white">React • Next.js • Node.js • MongoDB • Tailwind CSS • REST APIs</h1>
               <div className="mt-6 pt-4 flex w-full flex-col md:flex-row items-center justify-center gap-3 md:gap-4 md:justify-start">
                 <a 
-                 href="https://drive.google.com/file/d/1P351opxB7V0YBWOqVrNynrOEMF9ARlBs/view?usp=drive_link"
+                 href="https://drive.google.com/file/d/1A-pSp2ezTI43CnfP1NvsvBY2DJhfTFjO/view?usp=sharing"
                   type="button"
                   className={`rounded-4xl md:px-16 py-3 md:text-base font-bold md:font-semibold px-12 text-lg ${commonClasses} `}
                 >
