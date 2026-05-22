@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Home from './Pages/Home/home';
 import Navbar from './Pages/Navbar';
 import About from './Pages/About/about';
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="relative isolate flex min-h-dvh w-full max-w-full flex-1 flex-col bg-white text-gray-900 antialiased transition-colors duration-200 dark:bg-black dark:text-white">
       <ParticlesBg />
-      <BrowserRouter basename={routerBasename}>
+      <HashRouter basename={routerBasename}>
         <Navbar />
         <main className="relative z-10 flex w-full min-h-0 flex-1 flex-col pt-16">
           <Routes>
@@ -25,7 +25,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </main>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
