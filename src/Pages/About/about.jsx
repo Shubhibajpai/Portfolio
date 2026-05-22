@@ -90,7 +90,7 @@ const About = () => {
                 />
                 <div className="flex items-center gap-2">
                   <span className="text-violet-400 text-sm font-semibold">
-                    July 2025 - Present
+                    June 2025 - Present
                   </span>
                   <div className="h-3 w-3 flex relative">
                     <div className="absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75 animate-ping"></div>
